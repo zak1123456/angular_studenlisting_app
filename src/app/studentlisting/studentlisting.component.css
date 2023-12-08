@@ -1,0 +1,37 @@
+/*CSS to h1 tag with font size as 30px align center text decoration underline and color  blue and font width bold*/
+h1{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+/*CSS to class button to display it as flex row and justiy content as space around*/
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*CSS to div with width as 100% and margin auto*/
+div{
+    width: 100%;
+    margin: auto;
+}
+
+/*CSS to button tag as font color blue and size 15px margin top and bottom as 3%*/
+button{
+    color: blue;
+    font-size: 15px;
+    margin: 3% 0;
+}
+
+/*CSS to table, tr,th, td and as width 30% border solid green backround lightgreen font size 20px*/
+table, tr, th, td{
+    width: 30%;
+    border: 1px solid green;
+    background-color: lightgreen;
+    font-size: 20px;
+    margin-left: 30%;
+}

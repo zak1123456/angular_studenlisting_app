@@ -1,0 +1,14 @@
+{
+    "sonarlint.connectedMode.servers": [
+      {
+        "serverId": "my-server",
+        "serverUrl": "https://sonarcloud.io/account",
+        "token": "d7d678e72d6ad8e4bde4bd2eaf30c60d79005ea4"
+      }
+    ],
+    "sonarlint.connectedMode.project": {
+      "serverId": "my-server",
+      "projectKey": "zak1123456"
+    }
+  }
+  

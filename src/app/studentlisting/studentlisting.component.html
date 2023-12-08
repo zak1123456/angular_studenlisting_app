@@ -1,0 +1,37 @@
+<div>
+<!--add h1 tag to display the title StudentList-->
+<h1>StudentList</h1>
+<!--Add a div with class name as buttons-->
+<div class="buttons">
+<!--add 4 buttons with name NoFilter, AgeGreaterThan25, NameStartsWithA, GradeGreaterThan7 -->
+<button (click)="nofilter()">NoFilter</button>
+<button (click)="ageGreaterThan25()">AgeGreaterThan25</button>
+<button (click)="nameStartsWithA()">NameStartsWithA</button>
+<button (click)="averageGrade7()">GradeGreaterThan7</button>
+</div>
+
+<!--Add a table with header as Id, Name, Age, gender, Email, Average Grade-->
+<table>
+<tr>
+<th>Id</th>
+<th>Name</th>
+<th>Age</th>
+<th>Gender</th>
+<th>Email</th>
+<th>Average Grade</th>
+</tr>
+
+<!--Add a tr tag with *ngFor directive to iterate over the students array-->
+<tr *ngFor="let student of filterData">
+    <!--add the td tag with student.id-->
+    <td>{{student.id}}</td>
+    <!--add the td tag with student.name-->
+    <td>{{student.name}}</td>
+    <!--add the td tag with student.age-->
+    <td>{{student.age}}</td>
+    <td>{{student.gender}}</td>
+    <td>{{student.email}}</td>
+    <td>{{student.average_grade}}</td>
+</tr>
+</table>
+</div>
